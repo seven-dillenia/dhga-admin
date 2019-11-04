@@ -19,7 +19,7 @@ steps:
   displayName: 'npm install'
 
 - script: |
-    ng build --dev
+    ng build --prod
   displayName: 'Build Angular App'
 
 - task: ArchiveFiles@2
