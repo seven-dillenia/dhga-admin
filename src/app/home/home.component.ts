@@ -9,7 +9,7 @@ import { ComplaintsService } from '../complaints.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private authService: AuthService, private complaintsService: ComplaintsService) { }
+  constructor(public authService: AuthService, private complaintsService: ComplaintsService) { }
 
   ngOnInit() {
   }
