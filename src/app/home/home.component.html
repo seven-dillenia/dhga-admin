@@ -1,0 +1,5 @@
+<main>
+  <button *ngIf="!authService.isAuthenticated()" (click)="login()">Login</button>
+  <button *ngIf="authService.isAuthenticated()" (click)="request()">Call API</button>
+  <button *ngIf="authService.isAuthenticated()" (click)="Logout()">Logout</button>
+</main>
